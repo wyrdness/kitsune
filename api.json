@@ -1,10 +1,8 @@
 {
-  "category": "SHAPESHIFTER",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/kitsune",
     "maintainers": [
       {
@@ -18,409 +16,82 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "kitsune",
     "name": "Kitsune",
-    "aliases": [
-      {
-        "name": "Fox Spirit",
-        "language": "English translation",
-        "region": "Japan"
-      },
-      {
-        "name": "Kyūbi no Kitsune",
-        "language": "Japanese",
-        "region": "Japan",
-        "meaning": "Nine-tailed fox"
-      }
-    ],
-    "category": "SHAPESHIFTER",
-    "subcategory": "Folklore",
+    "aliases": [],
+    "category": "|_GLOBAL_SHAPESHIFTING_BEINGS_AND_TRADITIONS_|",
+    "subcategory": "White fox (benevolent)",
     "tags": [
-      "shapeshifter",
-      "japanese-folklore",
-      "fox-spirit",
-      "supernatural",
-      "shinto",
-      "buddhist",
-      "trickster",
-      "magical"
+      "folklore",
+      "mythology"
     ],
-    "status": "active",
+    "status": "documented",
     "description": {
-      "summary": "Japanese fox spirits that are intelligent and magical. They can shapeshift into humans (usually beautiful women), possess multiple tails (up to 9), and have powers including illusion creation, possession, fire manipulation, and flight.",
-      "full": "Kitsune are intelligent fox spirits from Japanese folklore with magical abilities and shapeshifting powers. They can transform into human form, usually appearing as beautiful women, and gain additional tails as they age and increase in power, up to a maximum of nine tails. Kitsune are classified into two main types: Zenko (benevolent foxes who serve as messengers of Inari, the Shinto deity) and Yako or Nogitsune (malicious tricksters who deceive humans). Their supernatural powers include creating illusions, possession (kitsunetsuki), generating fox-fire (kitsunebi), and flight. Kitsune hold immense cultural significance in Japanese society, serving as guardians of Inari shrines and appearing throughout Japanese folklore. Famous stories include Tamamo-no-Mae (a nine-tailed courtesan who was actually a fox spirit) and Kuzunoha (a fox who married a human). In modern times, kitsune remain popular in anime, manga, and are still part of active Shinto and Buddhist spiritual practice. They are related to other Asian fox spirits including Huli Jing (Chinese) and Kumiho (Korean)."
+      "summary": "Kitsune are intelligent fox spirits from Japanese folklore with magical abilities and shapeshifting powers.",
+      "full": "Kitsune are intelligent fox spirits from Japanese folklore with magical abilities and shapeshifting powers. They can transform into human form, usually appearing as beautiful women, and gain additional tails as they age and increase in power, up to a maximum of nine tails. Kitsune are classified into two main types: **Zenko** (benevolent foxes who serve as messengers of Inari, the Shinto deity) and **Yako** or **Nogitsune** (malicious tricksters who deceive humans). Their supernatural powers include: Kitsune hold immense cultural significance in Japanese society, serving as guardians of Inari shrines and appearing throughout Japanese folklore. Famous stories include Tamamo-no-Mae (a nine-tailed courtesan) and Kuzunoha (a fox who married a human). In modern times, kitsune remain popular in anime, manga, and are still part of active Shinto and Buddhist spiritual practice."
     },
     "etymology": {
-      "origin": "Japanese word for fox",
-      "meaning": "Fox (狐)",
-      "first_use": "Ancient Japanese folklore and Shinto traditions"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
-      "category": "SHAPESHIFTER",
-      "type": "Folklore",
-      "subtype": "Fox spirit / Yokai",
-      "variant": "Japanese"
+      "category": "|_GLOBAL_SHAPESHIFTING_BEINGS_AND_TRADITIONS_|",
+      "type": "White fox (benevolent)",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "huli-jing",
-        "name": "Huli Jing",
-        "relationship": "similar",
-        "description": "Chinese fox spirits with shapeshifting abilities"
-      },
-      {
-        "id": "kumiho",
-        "name": "Kumiho",
-        "relationship": "similar",
-        "description": "Korean nine-tailed fox spirits"
-      },
-      {
-        "id": "shapeshifters",
-        "name": "Shapeshifters",
-        "relationship": "category",
-        "description": "Global shapeshifting beings and traditions"
-      }
-    ]
+    "related_phenomena": []
   },
-
   "characteristics": {
     "physical": {
-      "height": {
-        "min": 1.5,
-        "max": 1.7,
-        "unit": "meters",
-        "confidence": "medium",
-        "note": "In human form; fox form varies"
-      },
-      "weight": {
-        "min": 45,
-        "max": 65,
-        "unit": "kilograms",
-        "confidence": "medium",
-        "note": "Human form"
-      },
-      "coloration": [
-        "red/orange fur (fox form)",
-        "white fur (aged/powerful kitsune)",
-        "variable (human form)"
-      ],
-      "features": [
-        {
-          "feature": "Multiple tails",
-          "description": "Can have 1-9 tails; number indicates age and power",
-          "frequency": "always"
-        },
-        {
-          "feature": "Fox form",
-          "description": "Natural form is a fox, often with supernatural features",
-          "frequency": "always"
-        },
-        {
-          "feature": "Human transformation",
-          "description": "Can shapeshift into human form, typically beautiful women",
-          "frequency": "common"
-        },
-        {
-          "feature": "Fox features in human form",
-          "description": "May retain fox ears, tail, or other features when transformed",
-          "frequency": "occasional"
-        },
-        {
-          "feature": "Hoshi no tama",
-          "description": "Star ball or pearl containing essence/soul",
-          "frequency": "traditional"
-        }
-      ],
-      "morphology": "Natural form is a fox with supernatural features. Can transform into human form (usually female). Possess 1-9 tails depending on age and power. May carry a hoshi no tama (star ball)."
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "abilities": [
-      {
-        "ability": "Shapeshifting",
-        "description": "Transform into human form, usually beautiful women",
-        "frequency": "always",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Illusion creation",
-        "description": "Create elaborate illusions and phantom landscapes",
-        "frequency": "common",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Possession (Kitsunetsuki)",
-        "description": "Can possess humans, causing madness or illness",
-        "frequency": "common",
-        "evidence_level": "traditional"
-      },
-      {
-        "ability": "Fox-fire (Kitsunebi)",
-        "description": "Generate and manipulate supernatural fire",
-        "frequency": "common",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Flight",
-        "description": "Ability to fly through the air",
-        "frequency": "occasional",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Longevity",
-        "description": "Can live for centuries or millennia",
-        "frequency": "always",
-        "evidence_level": "traditional"
-      },
-      {
-        "ability": "Dream manipulation",
-        "description": "Enter and manipulate dreams",
-        "frequency": "occasional",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Enhanced intelligence",
-        "description": "Highly intelligent and cunning",
-        "frequency": "always",
-        "evidence_level": "traditional"
-      }
-    ],
+    "abilities": [],
     "behavior": {
-      "activity_period": "variable",
-      "disposition": "variable (benevolent to malicious)",
-      "social_structure": "solitary or small groups",
-      "habitat_preference": [
-        "forests",
-        "mountains",
-        "shrines",
-        "human settlements",
-        "Inari temples"
-      ],
-      "diet": "Omnivorous (fox form)",
-      "patterns": [
-        "Serve as Inari messengers (Zenko)",
-        "Trick and deceive humans (Yako)",
-        "Guard shrines and sacred places",
-        "Form relationships with humans",
-        "Test human virtue",
-        "Reward kindness or punish cruelty"
-      ]
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
-
   "distribution": {
     "range": {
-      "description": "Throughout Japan in folklore and spiritual practice. Associated with Inari shrines nationwide and appear in stories from all regions of Japan.",
-      "continents": ["Asia"],
-      "countries": ["Japan"],
-      "regions": [
-        "All of Japan",
-        "Particularly associated with Inari shrines nationwide"
-      ]
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
-    "hotspots": [
-      {
-        "name": "Fushimi Inari Shrine",
-        "location": {
-          "description": "Major Inari shrine in Kyoto",
-          "country": "Japan",
-          "region": "Kyoto",
-          "coordinates": {
-            "latitude": 34.9671,
-            "longitude": 135.7727
-          }
-        },
-        "sighting_count": 1000,
-        "peak_period": "Ancient to present",
-        "notes": "Most famous Inari shrine; kitsune as guardians"
-      },
-      {
-        "name": "Inari shrines nationwide",
-        "location": {
-          "description": "Approximately 30,000+ Inari shrines across Japan",
-          "country": "Japan",
-          "region": "Nationwide",
-          "coordinates": {
-            "latitude": 35.6762,
-            "longitude": 139.6503,
-            "precision": "approximate"
-          }
-        },
-        "sighting_count": 5000,
-        "peak_period": "Continuous tradition",
-        "notes": "Kitsune serve as messengers and guardians"
-      }
-    ],
+    "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Ancient",
+        "date": "Unknown",
         "circa": true,
-        "source": "Ancient Japanese folklore, Shinto and Buddhist traditions"
-      },
-      "peak_activity_periods": [
-        {
-          "period": "Ancient to present",
-          "description": "Continuous living tradition in Japanese culture and religion"
-        }
-      ],
-      "seasonal_patterns": "Present year-round in spiritual and cultural practice"
+        "source": "Traditional folklore"
+      }
     }
   },
-
   "history": {
     "origins": {
-      "cultural_roots": "Kitsune originate from ancient Japanese Shinto and Buddhist traditions, influenced by Chinese fox spirit beliefs. They are integral to Japanese spiritual cosmology and the worship of Inari.",
-      "earliest_accounts": "Ancient Japanese folklore and religious texts dating back over a thousand years.",
-      "folklore_connections": "Connected to broader East Asian fox spirit traditions (Chinese Huli Jing, Korean Kumiho) and Japanese yokai mythology."
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "timeline": [
-      {
-        "date": "Ancient",
-        "event": "Shinto and Buddhist traditions established",
-        "significance": "Kitsune become associated with Inari worship and Japanese spiritual practice",
-        "source": "Ancient religious texts and folklore"
-      },
-      {
-        "date": "Heian Period (794-1185)",
-        "event": "Famous kitsune stories recorded",
-        "significance": "Tales like Tamamo-no-Mae and others documented in literature",
-        "source": "Classical Japanese literature"
-      },
-      {
-        "date": "Medieval-Edo periods",
-        "event": "Kitsune folklore flourishes",
-        "significance": "Extensive development of kitsune stories, beliefs, and cultural practices",
-        "source": "Japanese folklore collections"
-      },
-      {
-        "date": "Modern era",
-        "event": "Continued spiritual practice and popular culture",
-        "significance": "Kitsune remain in active Shinto/Buddhist practice and become anime/manga icons",
-        "source": "Contemporary Japanese culture"
-      }
-    ],
-    "modern_era": "Kitsune remain an active part of Japanese Shinto and Buddhist spiritual practice. They are also extremely popular in modern media, appearing extensively in anime, manga, video games, and global popular culture."
+    "timeline": []
   },
-
   "sightings": {
     "statistics": {
-      "total_documented": 10000,
+      "total_documented": 0,
       "verified": 0,
-      "disputed": 10000,
-      "debunked": 0,
-      "date_range": {
-        "earliest": "Ancient",
-        "latest": "2026"
-      }
+      "disputed": 0,
+      "debunked": 0
     },
-    "notable": [
-      {
-        "id": "kitsune-story-tamamo-no-mae",
-        "name": "Tamamo-no-Mae",
-        "date": {
-          "value": "Heian Period",
-          "precision": "period"
-        },
-        "location": {
-          "description": "Imperial court of Japan",
-          "country": "Japan",
-          "region": "Heian-kyo (Kyoto)",
-          "coordinates": {
-            "latitude": 35.0116,
-            "longitude": 135.7681,
-            "precision": "approximate"
-          }
-        },
-        "witnesses": {
-          "count": 1,
-          "types": ["Imperial court officials"],
-          "credibility_factors": ["Classical literature", "Cultural importance"]
-        },
-        "description": "Famous legend of a nine-tailed fox who disguised herself as a beautiful courtesan named Tamamo-no-Mae and infiltrated the imperial court. She was eventually discovered and transformed into the Sessho-seki (Killing Stone). This is one of the most famous kitsune stories in Japanese culture.",
-        "conditions": {
-          "weather": "N/A",
-          "visibility": "N/A",
-          "time_of_day": "N/A",
-          "duration": "N/A"
-        },
-        "evidence": [
-          "Classical literature",
-          "Cultural tradition",
-          "Sessho-seki stone in Nasu"
-        ],
-        "credibility": {
-          "rating": "cultural",
-          "factors": [
-            "Famous classical story",
-            "Important cultural narrative",
-            "Not a literal encounter but traditional tale",
-            "Spiritual and literary significance"
-          ],
-          "notes": "This is a traditional story and cultural narrative, not a cryptid sighting"
-        },
-        "sources": [
-          "Classical Japanese literature",
-          "Tamamo-no-Mae legends"
-        ],
-        "featured": true
-      },
-      {
-        "id": "kitsune-story-kuzunoha",
-        "name": "Kuzunoha the Fox Wife",
-        "date": {
-          "value": "Medieval period",
-          "precision": "period"
-        },
-        "location": {
-          "description": "Shinoda Forest, Osaka",
-          "country": "Japan",
-          "region": "Osaka",
-          "coordinates": {
-            "latitude": 34.5531,
-            "longitude": 135.5023,
-            "precision": "approximate"
-          }
-        },
-        "witnesses": {
-          "count": 1,
-          "types": ["Commoner"],
-          "credibility_factors": ["Traditional story", "Cultural significance"]
-        },
-        "description": "Famous story of a white fox named Kuzunoha who transformed into a woman and married a human man, bearing him a son (the famous onmyōji Abe no Seimei). When her true nature was discovered, she returned to the forest but maintained connection with her family. Represents benevolent kitsune relationship with humans.",
-        "conditions": {
-          "weather": "N/A",
-          "visibility": "N/A",
-          "time_of_day": "N/A",
-          "duration": "N/A"
-        },
-        "evidence": [
-          "Traditional story",
-          "Cultural narrative",
-          "Shrine dedicated to Kuzunoha"
-        ],
-        "credibility": {
-          "rating": "cultural",
-          "factors": [
-            "Traditional tale",
-            "Important cultural narrative",
-            "Spiritual significance",
-            "Literary tradition"
-          ],
-          "notes": "Traditional story illustrating benevolent kitsune and human relationships"
-        },
-        "sources": [
-          "Japanese folklore collections",
-          "Abe no Seimei legends"
-        ],
-        "featured": true
-      }
-    ],
+    "notable": [],
     "database_path": "./sightings/"
   },
-
   "evidence": {
     "physical": [],
     "photographic": [],
@@ -428,105 +99,28 @@
     "audio": [],
     "trace": []
   },
-
   "theories": {
-    "paranormal": [
-      {
-        "name": "Spiritual beings",
-        "description": "Kitsune are actual spiritual entities, yokai that exist in the spirit world and can interact with the physical realm",
-        "proponents": ["Shinto and Buddhist practitioners", "Traditional beliefs"],
-        "evidence_cited": ["Living religious tradition", "Spiritual experiences", "Cultural continuity"]
-      }
-    ],
+    "paranormal": [],
     "scientific": [],
-    "skeptical": [
-      {
-        "name": "Cultural mythology",
-        "description": "Kitsune are purely mythological beings that serve important cultural, spiritual, and social functions in Japanese society",
-        "proponents": ["Folklorists", "Anthropologists"],
-        "evidence_cited": ["No physical evidence", "Literary tradition", "Religious symbolism", "Cultural function"]
-      }
-    ]
+    "skeptical": []
   },
-
   "cultural": {
     "folklore": {
-      "traditions": [
-        "Inari worship and Shinto practice",
-        "Buddhist fox spirit traditions",
-        "Yokai folklore",
-        "Regional kitsune stories across Japan"
-      ],
-      "stories": [
-        "Tamamo-no-Mae (nine-tailed courtesan)",
-        "Kuzunoha (fox wife of Abe no Seimei's father)",
-        "Various tales of kitsune trickery and benevolence",
-        "Stories of kitsunetsuki (fox possession)"
-      ],
-      "beliefs": "Kitsune can be benevolent (Zenko) serving Inari, or malicious (Yako) tricking humans. They possess magical powers, grow in strength with age, and can form relationships with humans. Respect and proper offerings can gain their favor."
-    },
-    "indigenous": {
-      "cultures": [
-        "Japanese (nationwide)",
-        "Shinto practitioners",
-        "Buddhist practitioners"
-      ],
-      "significance": "Kitsune are integral to Japanese spiritual practice, particularly Inari worship. They serve as messengers of the deity Inari and guardians of shrines. The belief is deeply woven into Japanese cultural identity.",
-      "sensitivity_note": "Kitsune beliefs are living Japanese religious and cultural traditions. They are part of active Shinto and Buddhist practice and should be approached with respect for Japanese spiritual beliefs.",
-      "respect_guidelines": "Respect kitsune as part of living Japanese religious tradition. Do not trivialize, appropriate, or misrepresent these beliefs. Recognize their spiritual and cultural significance beyond entertainment."
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
     "popular_culture": {
-      "literature": [
-        "Classical Japanese literature (Heian, Edo periods)",
-        "Modern Japanese novels and stories",
-        "Manga featuring kitsune characters"
-      ],
-      "film_tv": [
-        "Countless anime featuring kitsune",
-        "Japanese films with kitsune characters",
-        "Global popular culture adoption"
-      ],
-      "games": [
-        "Video games featuring kitsune characters",
-        "Pokémon (Ninetales, Vulpix)",
-        "Various RPGs and fantasy games"
-      ],
-      "other": [
-        "Inari shrine fox statues (kitsune guardians)",
-        "Annual festivals and celebrations",
-        "Tourist attractions at major shrines",
-        "Global anime and manga fandom"
-      ]
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
-
   "research": {
     "researchers": [],
     "organizations": [],
-    "ongoing_studies": "Kitsune are studied from folkloric, anthropological, religious studies, and cultural perspectives rather than as literal beings. Research focuses on Japanese belief systems, yokai traditions, and cultural functions."
+    "ongoing_studies": "None documented"
   },
-
-  "sources": [
-    {
-      "id": "japanese-folklore",
-      "type": "cultural",
-      "title": "Japanese folklore collections and classical literature",
-      "description": "Traditional stories and beliefs about kitsune from ancient to modern times",
-      "note": "Living cultural and religious tradition"
-    },
-    {
-      "id": "shinto-buddhist",
-      "type": "religious",
-      "title": "Shinto and Buddhist texts and practices",
-      "description": "Religious context of kitsune as Inari messengers and yokai",
-      "note": "Active religious tradition"
-    },
-    {
-      "id": "academic-studies",
-      "type": "academic",
-      "title": "Academic research on Japanese folklore and yokai",
-      "description": "Scholarly analysis of kitsune in Japanese culture",
-      "note": "Folkloric and anthropological studies"
-    }
-  ]
+  "sources": []
 }
